@@ -7,7 +7,7 @@ $(document).ready(function(){
     
     var format = $("#curDegree").text();
     console.log(format);
-    if (format == "&deg;C") {
+    if (format == "C") {
       $("#curDegree").text("F");
       var newDegree = ((parseInt($("#temp").text()) * 9) / 5) + 32;
       $("#temp").text(newDegree);
