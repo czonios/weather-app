@@ -60,3 +60,22 @@ a:hover {
 .clickable:hover{
   color: #E368A6;
 }
+
+@media (max-width: 768px) {
+    
+  .text-header h1 {
+    padding-bottom: 15%;
+    font-size: 2em;
+  }
+
+  .text-header h2 {
+    font-size: 1.5em;
+    padding-bottom: 6px;
+  }
+    
+  .text-header p {
+    font-size: 12px;
+      font-weight: 100;
+  }
+}
+
