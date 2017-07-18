@@ -1,8 +1,8 @@
 body {
-  background: url('/img/comfybg.gif') repeat-y center bottom fixed;
+  background: url('/img/comfybg.gif') no-repeat center bottom fixed;
   width: 100%;
   height: 100%;
-  background-size: cover;
+  background-size: cover; 
 }
 
 h1 {
