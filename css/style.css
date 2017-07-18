@@ -1,0 +1,61 @@
+body {
+  background: url('/img/comfybg.gif') no-repeat center bottom fixed;
+  width: 100%;
+  height: 100%;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+a {
+  color: #E46A6B;
+}
+
+a:hover {
+  color: #E368A6;
+}
+
+.header {
+  display: table;
+  height: 100%;
+  width: 100%;
+  padding-top: 5%;
+  padding-left: 15%;
+  padding-right: 15%;
+
+}
+
+.vert-text {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.text-header {
+  margin: 0;
+  padding: 20px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  color: #FFFFFF;
+  font-family: "Verdana";
+}
+
+.text-header h1 {
+  padding-bottom: 20%;
+  font-size: 4.5em;
+}
+
+.text-header h2 {
+  font-size: 3em;
+  padding-bottom: 2%;
+}
+
+
+
+.clickable{
+  cursor: pointer;
+  color: #E46A6B;
+}
+.clickable:hover{
+  color: #E368A6;

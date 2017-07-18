@@ -1,0 +1,50 @@
+body {
+  background: url('https://orig05.deviantart.net/3b94/f/2015/178/b/9/cinemagraph___rainy_days_by_lemmino-d7v0rde.gif') no-repeat center bottom fixed;
+  width: 100%;
+  height: 100%;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+.header {
+  display: table;
+  height: 100%;
+  width: 100%;
+  padding-top: 0;
+  padding-left: 15%;
+  padding-right: 15%;
+
+}
+
+.vert-text {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.text-header {
+  margin: 0;
+  padding: 20px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  color: #FFFFFF;
+  font-family: "Verdana";
+}
+
+.text-header h1 {
+  padding-bottom: 5%;
+  font-size: 4.5em;
+}
+
+.text-header h2 {
+  font-size: 2em;
+}
+
+.clickable{
+  cursor:pointer;
+  color:#E46A6B;
+}
+.clickable:hover{
+  color:#E368A6;
